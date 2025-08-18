@@ -44,7 +44,7 @@ An initial set of models was built using the available features. This approach p
 
 ### Analysis: Uncovering Data Leakage
 
-Upon review, it was discovered that the near-perfect scores were a result of **data leakage**. The target variable, `Age`, was accidentally included in the feature set used for training. This meant the model wasn't *predicting* the age; it was simply looking up the answer from the input data, leading to an inflated and misleading performance metric.
+Upon review, it was discovered that the near-perfect scores of the GradientBoostingRegressor were a result of **data leakage**. 
 
 ---
 
