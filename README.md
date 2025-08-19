@@ -36,7 +36,7 @@ The project utilizes the `tested.csv` file from the Titanic dataset, which conta
 
 An initial set of models was built using the available features. This approach produced extremely high R-squared scores, suggesting near-perfect prediction capabilities.
 
-| Model | Test R² Score (Phase 1) |
+| Model | Test R² Score |
 | :--- | :--- |
 | **Linear Regression** | `0.830` |
 | **Lasso Regression** | `0.844` |
